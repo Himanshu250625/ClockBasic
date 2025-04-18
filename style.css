@@ -32,16 +32,17 @@ body {
   backdrop-filter: blur(15px);
   position: relative;
   animation: fadeIn 1.5s ease-in-out;
+  overflow: hidden;
 }
 
 .logo {
   position: absolute;
-  top: 20px;
+  top: 40px;
   left: 50%;
   transform: translateX(-50%);
-  width: 70px;
+  width: 60px;
   z-index: 10;
-  opacity: 0.8;
+  opacity: 0.85;
 }
 
 .numbers .number {
